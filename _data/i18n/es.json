@@ -84,7 +84,7 @@
       },
       {
         "q": "¿Funciona en mi Mac?",
-        "a": "Paper está hecho para Mac con Apple Silicon y macOS 13 o posterior. No es compatible con Mac Intel, Windows ni Linux. La documentación explica qué se ha probado y qué queda por comprobar."
+        "a": "Paper está hecho para Mac con Apple Silicon y macOS 13 o posterior. No es compatible con Mac Intel, Windows ni Linux."
       },
       {
         "q": "¿Lee o graba mi pantalla?",

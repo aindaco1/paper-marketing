@@ -84,7 +84,7 @@
       },
       {
         "q": "Will it work on my Mac?",
-        "a": "Paper is built for Apple Silicon Macs running macOS 13 or later. It does not support Intel Macs, Windows, or Linux. The developer docs keep the testing limits explicit."
+        "a": "Paper is built for Apple Silicon Macs running macOS 13 or later. It does not support Intel Macs, Windows, or Linux."
       },
       {
         "q": "Does it read or record my screen?",

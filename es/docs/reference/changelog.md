@@ -19,7 +19,7 @@ nav_order: 1
 
 - La textura se oculta en Mission Control para que las vistas previas de los espacios sigan siendo legibles, y vuelve al salir. Se conserva la compatibilidad con pantalla completa y las reglas de pausa, incluso al entrar y salir varias veces.
 
-## [1.0.1] - 2026-09-25
+## 1.0.1 - 2026-09-25
 
 - Adopta el núcleo compartido de soporte para plataformas Apple mediante la API compatible de diagnóstico de escritorio. Se mantienen la revisión de informes, el envío explícito, el consentimiento para las actualizaciones y el funcionamiento de la app.
 

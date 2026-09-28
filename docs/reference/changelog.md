@@ -18,7 +18,7 @@ nav_order: 1
 
 - Hide the overlay during Mission Control so Spaces previews stay readable, and restore the texture promptly on exit. Preserve fullscreen support and pause rules, including repeated overview entry.
 
-## [1.0.1] - 2026-09-25
+## 1.0.1 - 2026-09-25
 
 - Adopt the shared Apple support core through the compatible desktop diagnostics API. Preserve reviewed reports, explicit sending, update consent and existing app behavior.
 

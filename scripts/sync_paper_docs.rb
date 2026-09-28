@@ -64,6 +64,8 @@ module SyncPaperDocs
       body = entry['before'] ? original.split(entry['before'], 2).first : original
       raise "Empty source #{entry['source']}" if body.strip.empty?
       body = rewrite_links(body, entry['source'], routes, base)
+      # Bare version brackets in upstream Markdown are not links; keep release labels consistent.
+      body = body.gsub(/^## \[(\d+\.\d+\.\d+)\](?=\s|$)/, '## \1') if entry['source'] == 'CHANGELOG.md'
       if entry['path'] == 'privacy.md'
         body += "\n## This website\n\nThe Paper website is a static site hosted by GitHub Pages, with DNS managed by Cloudflare. It has no analytics scripts, advertising, sign-in, or marketing cookies. Hosting providers receive ordinary connection metadata. Documentation search runs in your browser. The texture preview does not save settings or upload anything.\n\nOptional support links open Stripe's hosted checkout. Payments and any recurring support are handled by Stripe, not this site. GitHub hosts app downloads and source code. [GitHub privacy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement), [Cloudflare privacy](https://www.cloudflare.com/privacypolicy/), and [Stripe privacy](https://stripe.com/privacy).\n"
       end
