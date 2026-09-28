@@ -1,0 +1,6 @@
+{% assign locale = site.data.i18n[page.lang] %}{% assign prefix = '' %}{% if page.lang == 'es' %}{% assign prefix = '/es' %}{% endif %}
+<footer class="paper-footer">
+  <div><a class="footer-wordmark" href="{{ prefix | append: '/' | relative_url }}">Paper.</a><p>{{ locale.footer.line }}</p></div>
+  <div class="footer-links"><a href="{{ prefix | append: '/help/' | relative_url }}">{{ locale.nav.help }}</a><a href="{{ prefix | append: '/privacy/' | relative_url }}">{{ locale.footer.privacy }}</a><a href="{{ prefix | append: '/support/' | relative_url }}">{{ locale.nav.support }}</a></div>
+  <div class="footer-credit"><a href="{{ site.data.product.deckle.url }}">{{ locale.footer.deckle }} ↗</a><a href="{{ prefix | append: '/docs/reference/credits/' | relative_url }}">{{ locale.footer.credits }}</a><span>{{ locale.footer.by }} <a href="https://dustwave.xyz">Dust Wave</a>.</span></div>
+</footer>

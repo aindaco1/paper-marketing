@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://paper-app.xyz/sitemap.xml

@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "guide": "Guía de uso",
+    "docs": "Documentación",
+    "help": "Ayuda",
+    "support": "Apoya el desarrollo",
+    "source": "Código fuente",
+    "language": "English",
+    "skip": "Saltar al contenido",
+    "menu": "Menú de documentación",
+    "search": "Buscar en la documentación"
+  },
+  "promise": "Gratis y de código abierto. Siempre.",
+  "requirements": "Apple Silicon · macOS 13 o posterior",
+  "download": "Descargar Paper",
+  "release": "Notas de la versión",
+  "code": "Échale un vistazo al código",
+  "footer": {
+    "by": "Una pequeña creación de",
+    "deckle": "Hecho con Deckle",
+    "credits": "Créditos y licencias",
+    "privacy": "Privacidad",
+    "line": "Hecho de píxeles. Con cariño por el papel."
+  },
+  "home": {
+    "eyebrow": "UNA PEQUEÑA APP GRATUITA PARA MAC",
+    "headline": "Un poco de papel para tu carísimo rectángulo.",
+    "intro": "Paper añade una textura de papel a tu Mac. Elige la que te guste, ajústala y vuelve a eso para lo que habías encendido el ordenador.",
+    "window": "Paper / una pequeña muestra",
+    "sample_kicker": "NOTA PARA MÍ",
+    "sample_title": "Deja un hueco para no hacer nada.",
+    "sample_text": "Una página en blanco. Una taza que se enfría. Esa idea que aparece cuando dejas de perseguirla. Hay peores formas de pasar la tarde.",
+    "sample_sign": "Bueno. A lo nuestro.",
+    "toggle": "Textura de papel",
+    "intensity": "Intensidad",
+    "preview_note": "Una muestra web con texturas reales de Deckle. El resultado variará según tu pantalla y tus ajustes.",
+    "preview_off": "Textura desactivada",
+    "preview_on": "Textura activada",
+    "swatches": [
+      {
+        "id": "classic-matte",
+        "name": "Soft Wove"
+      },
+      {
+        "id": "book-cream",
+        "name": "Book Cream"
+      },
+      {
+        "id": "rice-paper",
+        "name": "Rice Paper"
+      }
+    ],
+    "features_label": "02 / PONTE A GUSTO",
+    "features_title": "Una app pequeña. Unos cuantos detalles.",
+    "features": [
+      {
+        "number": "01",
+        "title": "Encuentra tu papel.",
+        "body": "26 texturas, desde la discreta Soft Wove hasta otras con más carácter. Guarda tus favoritas y las combinaciones a las que siempre vuelves."
+      },
+      {
+        "number": "02",
+        "title": "Deja que el día siga su curso.",
+        "body": "Fija un horario, sigue el amanecer y el atardecer, o cambia de aspecto con el modo claro y oscuro. Paper puede pausarse al usar la batería o el modo de bajo consumo."
+      },
+      {
+        "number": "03",
+        "title": "Sabe cuándo quitarse de en medio.",
+        "body": "Excluye una app o una pantalla. Pausa un rato. Desactívalo para una presentación. A veces, la cantidad ideal de papel es ninguna."
+      }
+    ],
+    "workflow_label": "03 / LOS PEQUEÑOS DETALLES",
+    "workflow_title": "Tu escritorio. Tus manías.",
+    "workflow_body": "Dale a cada pantalla su propia intensidad. Asigna un aspecto a una app, importa una receta de Deckle o usa Atajos para incorporar Paper a tu rutina. Vive en la barra de menús y deja pasar tus clics.",
+    "workflow_link": "Conoce los controles",
+    "workflow_note": "También tienes una franja de lectura, una luz cálida y configuraciones de escritorio guardadas, por si te vienen bien.",
+    "faq_label": "04 / UNAS PREGUNTAS RAZONABLES",
+    "faq_title": "Antes de ponerle papel al ordenador.",
+    "faqs": [
+      {
+        "q": "¿Gratis de verdad?",
+        "a": "Paper es gratis y de código abierto, y siempre lo será. Descárgalo, úsalo, modifica el código. Así de sencillo."
+      },
+      {
+        "q": "¿Funciona en mi Mac?",
+        "a": "Paper está hecho para Mac con Apple Silicon y macOS 13 o posterior. No es compatible con Mac Intel, Windows ni Linux. La documentación explica qué se ha probado y qué queda por comprobar."
+      },
+      {
+        "q": "¿Lee o graba mi pantalla?",
+        "a": "No. Paper dibuja una textura encima de la pantalla. No captura lo que hay debajo y no necesita permisos de grabación de pantalla, accesibilidad ni monitorización de entrada."
+      },
+      {
+        "q": "¿Y las capturas y las pantallas compartidas?",
+        "a": "Usa Pause for presentation antes de capturar o compartir, y comprueba la vista previa. Cada herramienta trata las superposiciones de forma distinta; Paper no promete ser invisible en ellas."
+      },
+      {
+        "q": "¿Sale algo de mi Mac?",
+        "a": "Tus ajustes y recetas se quedan en el Mac. Las búsquedas de ciudades usan el servicio de Apple y las actualizaciones usan GitHub. Los informes de diagnóstico solo se envían si los revisas y pulsas Send. Tienes los detalles en la página de privacidad."
+      }
+    ],
+    "credits_label": "05 / LAS COSAS BUENAS TIENEN UN ORIGEN",
+    "credits_title": "El papel le debe mucho a Deckle.",
+    "credits_body": "Gracias a Deckle y a quienes contribuyen al proyecto. Paper usa su motor de texturas y su catálogo de papeles, y adapta su modelo de recetas para las importaciones. Su trabajo de código abierto hizo esto posible.",
+    "credits_link": "Pásate a conocer Deckle",
+    "credits_details": "Ver todos los créditos",
+    "support_title": "¿Te gustan las cosas pequeñas y útiles?",
+    "support_body": "Si te apetece apoyar a Dust Wave, gracias. Las aportaciones son opcionales. Todo el mundo recibe la misma app gratuita.",
+    "bottom_title": "Venga. Vamos a ponerle un poco de papel."
+  },
+  "support": {
+    "options_title": "Un pequeño apoyo ayuda mucho.",
+    "one_time": {
+      "title": "Una vez está muy bien.",
+      "body": "Elige la cantidad que te venga bien.",
+      "amount": "Tú eliges · sugerencia: 10 USD",
+      "cta": "Aportar una vez"
+    },
+    "monthly": {
+      "title": "Un pequeño empujón mensual.",
+      "body": "Apoya el trabajo continuo de Dust Wave.",
+      "amount": "5 USD al mes",
+      "cta": "Aportar cada mes"
+    },
+    "provider_note": "El pago se realiza en Stripe. El apoyo es opcional y no desbloquea funciones adicionales de Paper."
+  }
+}

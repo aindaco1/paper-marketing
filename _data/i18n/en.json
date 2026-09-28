@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "home": "Home",
+    "guide": "User guide",
+    "docs": "Developer docs",
+    "help": "Get help",
+    "support": "Support development",
+    "source": "Source code",
+    "language": "Español",
+    "skip": "Skip to content",
+    "menu": "Documentation menu",
+    "search": "Search the docs"
+  },
+  "promise": "Free and open source. Always.",
+  "requirements": "Apple Silicon · macOS 13 or later",
+  "download": "Download Paper",
+  "release": "Release notes",
+  "code": "Have a look at the code",
+  "footer": {
+    "by": "A small thing by",
+    "deckle": "Built with Deckle",
+    "credits": "Credits & licenses",
+    "privacy": "Privacy",
+    "line": "Made of pixels. Fond of paper."
+  },
+  "home": {
+    "eyebrow": "A SMALL, FREE MAC APP",
+    "headline": "A little paper for your very expensive rectangle.",
+    "intro": "Paper adds a paper texture to your Mac. Pick one you like, adjust it, and get on with whatever you opened the computer to do.",
+    "window": "Paper / a little preview",
+    "sample_kicker": "A NOTE TO MYSELF",
+    "sample_title": "Leave a little room for nothing.",
+    "sample_text": "An empty page. A cup going cold. That one idea that turns up when you stop trying so hard. There are worse ways to spend an afternoon.",
+    "sample_sign": "Anyway. Back to it.",
+    "toggle": "Paper texture",
+    "intensity": "Intensity",
+    "preview_note": "A web preview using real Deckle texture tiles. Your display and settings will look a little different.",
+    "preview_off": "Texture off",
+    "preview_on": "Texture on",
+    "swatches": [
+      {
+        "id": "classic-matte",
+        "name": "Soft Wove"
+      },
+      {
+        "id": "book-cream",
+        "name": "Book Cream"
+      },
+      {
+        "id": "rice-paper",
+        "name": "Rice Paper"
+      }
+    ],
+    "features_label": "02 / MAKE YOURSELF AT HOME",
+    "features_title": "A small app. A few nice touches.",
+    "features": [
+      {
+        "number": "01",
+        "title": "Find your kind of paper.",
+        "body": "26 textures, from quiet Soft Wove to something with a bit more character. Save your favorites and the looks you keep coming back to."
+      },
+      {
+        "number": "02",
+        "title": "Let the day do its thing.",
+        "body": "Set a schedule, follow sunrise and sunset, or switch looks with light and dark mode. Paper can pause on battery or in Low Power Mode."
+      },
+      {
+        "number": "03",
+        "title": "Know when to disappear.",
+        "body": "Exclude an app or a display. Snooze for a while. Pause for a presentation. Sometimes the right amount of paper is none."
+      }
+    ],
+    "workflow_label": "03 / THE LITTLE DETAILS",
+    "workflow_title": "Your desk. Your peculiarities.",
+    "workflow_body": "Give each display its own intensity. Assign a look to a particular app, bring in a Deckle recipe, or use Shortcuts to put Paper into your routine. It lives in the menu bar and stays out of your clicks.",
+    "workflow_link": "Meet the controls",
+    "workflow_note": "A reading strip, a warm Desk Lamp, and saved desk setups are there when you want them, too.",
+    "faq_label": "04 / A FEW REASONABLE QUESTIONS",
+    "faq_title": "Before you put paper on your computer.",
+    "faqs": [
+      {
+        "q": "Actually free?",
+        "a": "Paper is free and open source, and it always will be. Download it, use it, tinker with it. That’s the whole arrangement."
+      },
+      {
+        "q": "Will it work on my Mac?",
+        "a": "Paper is built for Apple Silicon Macs running macOS 13 or later. It does not support Intel Macs, Windows, or Linux. The developer docs keep the testing limits explicit."
+      },
+      {
+        "q": "Does it read or record my screen?",
+        "a": "No. Paper draws a texture over the screen. It does not capture what’s underneath, and it needs no Screen Recording, Accessibility, or Input Monitoring permission."
+      },
+      {
+        "q": "What about screenshots and screen sharing?",
+        "a": "Use Pause for presentation before you capture or share, then check your preview. Different capture tools handle overlays differently; Paper doesn’t promise to hide from them."
+      },
+      {
+        "q": "Does anything leave my Mac?",
+        "a": "Your settings and recipes stay local. City searches use Apple’s geocoding service, update checks use GitHub, and a diagnostic report is only sent when you review it and choose Send. The privacy page has the details."
+      }
+    ],
+    "credits_label": "05 / GOOD THINGS COME FROM SOMEWHERE",
+    "credits_title": "The paper part owes a lot to Deckle.",
+    "credits_body": "A big thank-you to Deckle and its contributors. Paper uses Deckle’s texture renderer and paper catalog, and adapts its recipe model for imports. Their open-source work made this possible.",
+    "credits_link": "Go say hello to Deckle",
+    "credits_details": "Read the full credits",
+    "support_title": "Like small, useful things?",
+    "support_body": "If you’d like to support Dust Wave, thank you. Donations are optional. Everyone gets the same free app.",
+    "bottom_title": "All right. Let’s put some paper on it."
+  },
+  "support": {
+    "options_title": "A little support goes a long way.",
+    "one_time": {
+      "title": "Once is lovely.",
+      "body": "Choose an amount that suits you.",
+      "amount": "Your choice · $10 suggested",
+      "cta": "Give once"
+    },
+    "monthly": {
+      "title": "A regular little nudge.",
+      "body": "Support Dust Wave’s ongoing work.",
+      "amount": "$5 USD / month",
+      "cta": "Give monthly"
+    },
+    "provider_note": "Checkout is hosted by Stripe. Support is optional and does not unlock extra Paper features."
+  }
+}

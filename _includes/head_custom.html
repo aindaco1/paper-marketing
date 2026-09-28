@@ -1,0 +1,11 @@
+{% assign locale = site.data.i18n[page.lang] %}
+<link rel="icon" type="image/png" href="{{ '/assets/images/paper-icon.png' | relative_url }}">
+<link rel="apple-touch-icon" href="{{ '/assets/images/paper-icon.png' | relative_url }}">
+<meta name="theme-color" content="#f5f2e9">
+{% unless page.permalink == '/404.html' %}
+{% assign english_url = page.url %}{% if page.lang == 'es' %}{% assign english_url = page.url | remove_first: '/es' %}{% endif %}
+<link rel="alternate" hreflang="en" href="{{ english_url | absolute_url }}">
+<link rel="alternate" hreflang="es" href="{{ '/es' | append: english_url | absolute_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ english_url | absolute_url }}">
+{% endunless %}
+<script defer src="{{ '/assets/js/site.js' | relative_url }}?v={{ '/assets/js/site.js' | asset_fingerprint }}"></script>

@@ -1,0 +1,12 @@
+{% assign locale = site.data.i18n[page.lang] %}{% assign prefix = '' %}{% if page.lang == 'es' %}{% assign prefix = '/es' %}{% endif %}
+<header class="paper-header">
+  <a class="brand" href="{{ prefix | append: '/' | relative_url }}" aria-label="Paper — {{ locale.nav.home }}"><img src="{{ '/assets/images/paper-icon.png' | relative_url }}" width="36" height="36" alt="">Paper<span class="brand-dot" aria-hidden="true">.</span></a>
+  <nav aria-label="{{ locale.nav.menu }}" class="paper-nav">
+    <a href="{{ prefix | append: '/guide/' | relative_url }}">{{ locale.nav.guide }}</a>
+    <a href="{{ prefix | append: '/docs/' | relative_url }}">{{ locale.nav.docs }}</a>
+    <a href="{{ site.data.product.repository }}">GitHub <span aria-hidden="true">↗</span></a>
+    {% if page.lang == 'es' %}{% assign language_url = page.url | remove_first: '/es' %}{% else %}{% assign language_url = '/es' | append: page.url %}{% endif %}
+    {% if page.permalink == '/404.html' %}{% assign language_url = '/es/' %}{% endif %}
+    <a class="language-link" href="{{ language_url | relative_url }}" lang="{% if page.lang == 'es' %}en{% else %}es{% endif %}" data-language-link>{{ locale.nav.language }}</a>
+  </nav>
+</header>

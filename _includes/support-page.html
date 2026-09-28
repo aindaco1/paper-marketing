@@ -1,0 +1,6 @@
+{% assign locale = site.data.i18n[page.lang] %}
+<h1>{{ locale.home.support_title }}</h1>
+<p>{{ locale.home.support_body }}</p>
+<p><strong>{{ locale.promise }}</strong></p>
+{% include support-options.html %}
+{% if page.lang == 'es' %}<p>¿Buscas ayuda con Paper? <a href="/es/help/">Por aquí.</a></p>{% else %}<p>Looking for help with Paper? <a href="/help/">This way.</a></p>{% endif %}

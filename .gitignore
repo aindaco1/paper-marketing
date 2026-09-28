@@ -1,0 +1,9 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.bundle/
+vendor/
+.translation-cache/
+.artifacts/
+.DS_Store
+__pycache__/

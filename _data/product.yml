@@ -1,0 +1,20 @@
+---
+name: Paper
+repository: https://github.com/aindaco1/paper
+latest_release:
+  version: 1.0.3
+  tag: v1.0.3
+  published_at: '2026-09-25T18:40:57Z'
+  url: https://github.com/aindaco1/paper/releases/tag/v1.0.3
+  download: https://github.com/aindaco1/paper/releases/download/v1.0.3/Paper-1.0.3-arm64.dmg
+  source: https://github.com/aindaco1/paper/releases/download/v1.0.3/Paper-1.0.3-source.zip
+requirements:
+  macos: 13+
+  architecture: Apple Silicon
+app_icon:
+  path: "/assets/images/paper-icon.png"
+  sha256: ced1a608191bc53a44cf8be04f650d1382068f5ca9268cdf47b0589e3e9fa231
+deckle:
+  url: https://github.com/YellowFoxH4XOR/deckle
+  commit: cb4eb09dc117bb046c3ca83b782c5a9ed53dfd91
+docs_source_commit: 6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95

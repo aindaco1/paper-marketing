@@ -1,0 +1,43 @@
+- path: docs/development/quickstart.md
+  title: Quickstart
+  parent: Development
+  order: 1
+  source: CONTRIBUTING.md
+- path: docs/development/architecture.md
+  title: Architecture
+  parent: Development
+  order: 2
+  source: docs/architecture.md
+- path: docs/development/recipes.md
+  title: Recipes and backups
+  parent: Development
+  order: 3
+  source: docs/recipes.md
+- path: docs/operations/testing.md
+  title: Testing
+  parent: Operations
+  order: 1
+  source: docs/testing.md
+  before: 'September 24, 2026, version 0.1.0 results:'
+- path: docs/operations/releasing.md
+  title: Releases and updates
+  parent: Operations
+  order: 2
+  source: docs/releasing.md
+- path: docs/reference/changelog.md
+  title: Changelog
+  parent: Reference
+  order: 1
+  source: CHANGELOG.md
+- path: guide.md
+  route: /guide/
+  title: User guide
+  source: docs/user-guide.md
+- path: help.md
+  route: /help/
+  title: Get help
+  source: docs/support.md
+- path: privacy.md
+  route: /privacy/
+  title: Privacy
+  source: docs/privacy.md

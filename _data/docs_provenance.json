@@ -1,0 +1,31 @@
+{
+  "source_commit": "6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95",
+  "files": {
+    "CONTRIBUTING.md": "fb9b816d59a8b41a4a84113957f1094724852906c88446ac52ac24b9acc0e03c",
+    "docs/architecture.md": "e17c775db3f8924302f229c3da884e656866ea090b71a2b887cd9f0da123c520",
+    "docs/recipes.md": "7e1d44897a3a8acd38acfe84a0396d13be0153dc67ddb711550cec8f654c75b3",
+    "docs/testing.md": "d925820413117ec60f67560d957764c0e4e90f219eef85fde30b217a32a48826",
+    "docs/releasing.md": "02df26fce8e05347659ab60ab682acc84c961a95e10c7ad7125dcfd9d58790fe",
+    "CHANGELOG.md": "6299a6979465f71178a7677b7ade0d02df0567c6006d3416619a59e41b13d36c",
+    "docs/user-guide.md": "7cc361bf25811b837fda4dc4ee0791df7d102edc63c6aa77a85edad62ec5f702",
+    "docs/support.md": "d2079e1e7b6fae067cb92d2d241492923f21fe5018cd1b126abe835f350a9f86",
+    "docs/privacy.md": "a24a7a054ab4637773fa8d8bb9394fe27dc578649003e195d7d8bdbce21917c5"
+  },
+  "outputs": [
+    "docs/development/quickstart.md",
+    "docs/development/architecture.md",
+    "docs/development/recipes.md",
+    "docs/operations/testing.md",
+    "docs/operations/releasing.md",
+    "docs/reference/changelog.md",
+    "guide.md",
+    "help.md",
+    "privacy.md",
+    "docs/development/index.md",
+    "docs/operations/index.md",
+    "docs/reference/index.md",
+    "docs/index.md",
+    "docs/reference/source-map.md",
+    "docs/reference/credits.md"
+  ]
+}
