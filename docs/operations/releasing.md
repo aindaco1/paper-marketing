@@ -3,7 +3,7 @@ title: Releases and updates
 description: Releases and updates for Paper, the free and open-source macOS paper-texture
   app.
 lang: en
-source_commit: 6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95
+source_commit: 871398865f5ee28615b51d21dfcc30e4b3604d48
 generated: true
 parent: Operations
 nav_order: 2
@@ -36,4 +36,4 @@ Delete a branch only after proving it is merged, has no open PR and is not used 
 
 ## Source material
 
-This page follows Paper source at [`6ff7e17`](https://github.com/aindaco1/paper/tree/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95). [docs/releasing.md](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/docs/releasing.md) is its maintained source. Website service details, where present, are maintained here.
+This page follows Paper source at [`8713988`](https://github.com/aindaco1/paper/tree/871398865f5ee28615b51d21dfcc30e4b3604d48). [docs/releasing.md](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/releasing.md) is its maintained source. Website service details, where present, are maintained here.

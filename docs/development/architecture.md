@@ -3,7 +3,7 @@ title: Architecture
 description: Architecture for Paper, the free and open-source macOS paper-texture
   app.
 lang: en
-source_commit: 6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95
+source_commit: 871398865f5ee28615b51d21dfcc30e4b3604d48
 generated: true
 parent: Development
 nav_order: 2
@@ -45,7 +45,7 @@ Paper retains Deckle's pinned `TexturePreset.swift` and `TextureRenderer.swift` 
 
 The built-in catalog comes directly from Deckle. Paper places its default Soft Wove first instead of maintaining a separate subset of texture IDs. Per-display overrides change effective intensity independently of the selected look.
 
-Read [third-party notices](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/THIRD_PARTY_NOTICES.md) and [the vendor manifest](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/docs/vendor-sources.json) for exact revisions, hashes and retained licenses. Importing a recipe changes its local identity while preserving its rendering seed; see [recipes](/docs/development/recipes/).
+Read [third-party notices](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/THIRD_PARTY_NOTICES.md) and [the vendor manifest](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/vendor-sources.json) for exact revisions, hashes and retained licenses. Importing a recipe changes its local identity while preserving its rendering seed; see [recipes](/docs/development/recipes/).
 
 ## System behavior
 
@@ -61,7 +61,7 @@ Settings use the `xyz.dustwave.paper` preferences domain. The paper collection s
 
 Desk profiles, app assignments, shortcut bindings and other device-specific settings are local. Library exports include custom papers, favorites and saved looks, not every preference.
 
-The pinned Dust Wave Platform desktop package supplies Sparkle update integration and reviewed diagnostics mechanics. Paper retains its own report schema and submission destination. There is no speech or AI runtime in the app. See [privacy](/privacy/), [desktop integration](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/docs/SHARED_DESKTOP_MIGRATION.md), and [release workflow](/docs/operations/releasing/).
+The pinned Dust Wave Platform desktop package supplies Sparkle update integration and reviewed diagnostics mechanics. Paper retains its own report schema and submission destination. There is no speech or AI runtime in the app. See [privacy](/privacy/), [desktop integration](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/SHARED_DESKTOP_MIGRATION.md), and [release workflow](/docs/operations/releasing/).
 
 ## Changing the code
 
@@ -69,4 +69,4 @@ Keep new policy testable in `PaperCore` and Apple APIs in narrow adapters. Reuse
 
 ## Source material
 
-This page follows Paper source at [`6ff7e17`](https://github.com/aindaco1/paper/tree/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95). [docs/architecture.md](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/docs/architecture.md) is its maintained source. Website service details, where present, are maintained here.
+This page follows Paper source at [`8713988`](https://github.com/aindaco1/paper/tree/871398865f5ee28615b51d21dfcc30e4b3604d48). [docs/architecture.md](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/architecture.md) is its maintained source. Website service details, where present, are maintained here.

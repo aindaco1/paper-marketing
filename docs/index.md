@@ -20,4 +20,4 @@ Paper is a free, open-source texture overlay for Apple Silicon Macs. These guide
 
 ## Source and release
 
-The downloadable app is **Paper 1.0.3**. These docs follow source commit [`6ff7e17`](https://github.com/aindaco1/paper/tree/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95), including documentation changes after that release. A source change is not automatically a shipped app feature. See the [source map](/docs/reference/source-map/) and [changelog](/docs/reference/changelog/).
+The downloadable app is **Paper 1.0.3**. These docs follow source commit [`8713988`](https://github.com/aindaco1/paper/tree/871398865f5ee28615b51d21dfcc30e4b3604d48), including documentation changes after that release. A source change is not automatically a shipped app feature. See the [source map](/docs/reference/source-map/) and [changelog](/docs/reference/changelog/).

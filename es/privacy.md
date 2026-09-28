@@ -2,7 +2,7 @@
 title: Privacidad
 description: Privacidad de Paper, la app gratuita y de código abierto para macOS.
 lang: es
-source_commit: 6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95
+source_commit: 871398865f5ee28615b51d21dfcc30e4b3604d48
 generated: true
 layout: page
 permalink: /es/privacy/
@@ -22,7 +22,7 @@ Sparkle consulta el feed oficial de versiones en GitHub al iniciar y periódicam
 
 **Send to public GitHub issues** es una acción explícita. Envía el informe mostrado, de hasta 8 KiB, por HTTPS a `https://crash.dustwave.xyz/v1/paper/reports`. El relay existente conserva las credenciales de GitHub y solo crea o actualiza issues en `aindaco1/paper`. Las huellas equivalentes comparten issue. Los reintentos conservan su identificador y no aumentan dos veces el contador dentro del periodo limitado de retención de recibos. Abrir la ventana, importar un fallo o guardar JSON no sube nada. No se envía un informe automáticamente después de un fallo.
 
-El transporte rechaza redirecciones, respuestas demasiado grandes y confirmaciones que no coincidan. Puedes reintentar los envíos fallidos o sin confirmar. Los issues de GitHub son públicos; usa el [canal privado de seguridad](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/SECURITY.md) para vulnerabilidades. Los límites por IP del relay usan metadatos de conexión para prevenir abusos, nunca como contenido del issue. Los contadores representan envíos, no usuarios únicos ni causas demostradas.
+El transporte rechaza redirecciones, respuestas demasiado grandes y confirmaciones que no coincidan. Puedes reintentar los envíos fallidos o sin confirmar. Los issues de GitHub son públicos; usa el [canal privado de seguridad](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/SECURITY.md) para vulnerabilidades. Los límites por IP del relay usan metadatos de conexión para prevenir abusos, nunca como contenido del issue. Los contadores representan envíos, no usuarios únicos ni causas demostradas.
 
 Los perfiles de escritorio, asignaciones de aspectos a apps, atajos, intensidades recordadas, geometría de la franja de lectura y ajustes de lámpara permanecen en las preferencias locales. No se añaden a los informes. Las pausas de presentación y batería baja usan las categorías generales de pausa y batería del esquema desplegado. La franja de lectura tiene una geometría que eliges tú; no sigue el puntero ni analiza la pantalla. El coordinador de instancia única solo acepta una petición para mostrar Settings; no tiene un protocolo remoto de configuración, apertura de archivos o ejecución de comandos.
 
@@ -38,4 +38,4 @@ Los enlaces de apoyo opcional abren el pago alojado en Stripe. Stripe gestiona l
 
 ## Material de origen
 
-Esta página sigue el código de Paper en [`6ff7e17`](https://github.com/aindaco1/paper/tree/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95). Su contenido técnico se mantiene en [docs/privacy.md](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/docs/privacy.md). Los detalles sobre los servicios de este sitio web se mantienen aquí.
+Esta página sigue el código de Paper en [`8713988`](https://github.com/aindaco1/paper/tree/871398865f5ee28615b51d21dfcc30e4b3604d48). Su contenido técnico se mantiene en [docs/privacy.md](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/privacy.md). Los detalles sobre los servicios de este sitio web se mantienen aquí.

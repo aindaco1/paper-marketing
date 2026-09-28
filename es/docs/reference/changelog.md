@@ -2,7 +2,7 @@
 title: Historial de cambios
 description: Historial de cambios de Paper, la app gratuita y de código abierto para macOS.
 lang: es
-source_commit: 6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95
+source_commit: 871398865f5ee28615b51d21dfcc30e4b3604d48
 generated: true
 parent: Referencia
 nav_order: 1
@@ -33,7 +33,7 @@ nav_order: 1
 
 ## 0.4.2 - 2026-09-25
 
-- Actualiza el paquete de escritorio compartido a la versión 0.2.0 mediante la dependencia fijada de Dust Wave Platform. Se mantienen el consentimiento para las actualizaciones y el comportamiento de diagnóstico propio de Paper. Consulta el [registro de migración](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/docs/SHARED_DESKTOP_MIGRATION.md).
+- Actualiza el paquete de escritorio compartido a la versión 0.2.0 mediante la dependencia fijada de Dust Wave Platform. Se mantienen el consentimiento para las actualizaciones y el comportamiento de diagnóstico propio de Paper. Consulta el [registro de migración](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/SHARED_DESKTOP_MIGRATION.md).
 
 ## 0.4.1
 
@@ -56,4 +56,4 @@ Modo de apps seleccionadas, aspectos automáticos de día y noche, ajustes de in
 
 ## Material de origen
 
-Esta página sigue el código de Paper en [`6ff7e17`](https://github.com/aindaco1/paper/tree/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95). Su contenido técnico se mantiene en [CHANGELOG.md](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/CHANGELOG.md). Los detalles sobre los servicios de este sitio web se mantienen aquí.
+Esta página sigue el código de Paper en [`8713988`](https://github.com/aindaco1/paper/tree/871398865f5ee28615b51d21dfcc30e4b3604d48). Su contenido técnico se mantiene en [CHANGELOG.md](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/CHANGELOG.md). Los detalles sobre los servicios de este sitio web se mantienen aquí.

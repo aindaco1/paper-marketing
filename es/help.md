@@ -2,7 +2,7 @@
 title: Ayuda
 description: Ayuda de Paper, la app gratuita y de código abierto para macOS.
 lang: es
-source_commit: 6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95
+source_commit: 871398865f5ee28615b51d21dfcc30e4b3604d48
 generated: true
 layout: page
 permalink: /es/help/
@@ -16,7 +16,7 @@ Busca primero en los [issues existentes](https://github.com/aindaco1/paper/issue
 
 Abre **Help & diagnostics…** desde Settings o la barra de menús. Revisa el JSON, guárdalo localmente o elige enviarlo al repositorio público. Los informes equivalentes se agrupan en un mismo issue. El enlace al resultado aparece cuando se confirma la entrega. Si falla el envío, reintenta con la misma vista previa; Refresh crea un identificador nuevo. Puedes importar un archivo `.ips` de Paper para obtener un resumen del fallo. No se suben los registros originales ni el informe completo.
 
-Para problemas de seguridad, usa el [canal privado](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/SECURITY.md), no el botón de informe público.
+Para problemas de seguridad, usa el [canal privado](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/SECURITY.md), no el botón de informe público.
 
 <a id="presentations-capture-and-protected-dialogs"></a>
 
@@ -32,4 +32,4 @@ Las capturas de ventanas, las capturas de pantalla completa y las apps para comp
 
 ## Material de origen
 
-Esta página sigue el código de Paper en [`6ff7e17`](https://github.com/aindaco1/paper/tree/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95). Su contenido técnico se mantiene en [docs/support.md](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/docs/support.md). Los detalles sobre los servicios de este sitio web se mantienen aquí.
+Esta página sigue el código de Paper en [`8713988`](https://github.com/aindaco1/paper/tree/871398865f5ee28615b51d21dfcc30e4b3604d48). Su contenido técnico se mantiene en [docs/support.md](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/support.md). Los detalles sobre los servicios de este sitio web se mantienen aquí.

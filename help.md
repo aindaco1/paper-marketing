@@ -2,7 +2,7 @@
 title: Get help
 description: Get help for Paper, the free and open-source macOS paper-texture app.
 lang: en
-source_commit: 6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95
+source_commit: 871398865f5ee28615b51d21dfcc30e4b3604d48
 generated: true
 layout: page
 permalink: "/help/"
@@ -15,7 +15,7 @@ Check [existing issues](https://github.com/aindaco1/paper/issues) first. Include
 
 Use **Help & diagnostics…** from settings or the menu bar. Review the JSON, save it locally, or explicitly send it to the public repository. Matching reports join an existing issue. The result includes a link only after delivery is confirmed. If sending fails, retry the same preview; Refresh creates a new submission ID. A user-selected Paper `.ips` incident can be projected into a crash summary. Raw logs and full incidents are not uploaded.
 
-For security issues use [private reporting](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/SECURITY.md), not the public-report button.
+For security issues use [private reporting](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/SECURITY.md), not the public-report button.
 
 ## Presentations, capture and protected dialogs
 
@@ -27,4 +27,4 @@ Window screenshots, full-display captures and sharing apps can compose overlays 
 
 ## Source material
 
-This page follows Paper source at [`6ff7e17`](https://github.com/aindaco1/paper/tree/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95). [docs/support.md](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/docs/support.md) is its maintained source. Website service details, where present, are maintained here.
+This page follows Paper source at [`8713988`](https://github.com/aindaco1/paper/tree/871398865f5ee28615b51d21dfcc30e4b3604d48). [docs/support.md](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/support.md) is its maintained source. Website service details, where present, are maintained here.

@@ -17,7 +17,7 @@ Paper is free and open source, and it always will be. A big part of making it po
 
 All 26 built-in textures come from that pinned catalog. The samples on this website are exported from that same renderer. This is code reuse, not just visual inspiration. Thank you to everyone who made it available.
 
-Copyright (c) 2026 Deckle contributors. [Read the complete MIT license](/assets/licenses/Deckle-MIT.txt). Exact file hashes and source paths live in [Paper's vendor manifest](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/docs/vendor-sources.json).
+Copyright (c) 2026 Deckle contributors. [Read the complete MIT license](/assets/licenses/Deckle-MIT.txt). Exact file hashes and source paths live in [Paper's vendor manifest](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/vendor-sources.json).
 
 Paper is an independent application; upstream credit does not imply endorsement.
 
@@ -28,7 +28,7 @@ Paper is an independent application; upstream credit does not imply endorsement.
 - [Sparkle](https://sparkle-project.org/) supplies signed application updates; its license ships with Paper.
 - OwlSwitch-derived display fixtures are separate GPL-3.0 development/test tooling. They are not shipped inside Paper.app.
 
-[Paper's complete third-party notices](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/THIRD_PARTY_NOTICES.md) retain dependency licenses and provenance.
+[Paper's complete third-party notices](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/THIRD_PARTY_NOTICES.md) retain dependency licenses and provenance.
 
 ## This website
 

@@ -2,7 +2,7 @@
 title: Changelog
 description: Changelog for Paper, the free and open-source macOS paper-texture app.
 lang: en
-source_commit: 6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95
+source_commit: 871398865f5ee28615b51d21dfcc30e4b3604d48
 generated: true
 parent: Reference
 nav_order: 1
@@ -32,7 +32,7 @@ nav_order: 1
 
 ## 0.4.2 - 2026-09-25
 
-- Share the existing shared desktop package, advanced to version 0.2.0 through the pinned Dust Wave Platform dependency. Preserve existing update consent and product-specific diagnostics behavior. See the [migration record](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/docs/SHARED_DESKTOP_MIGRATION.md).
+- Share the existing shared desktop package, advanced to version 0.2.0 through the pinned Dust Wave Platform dependency. Preserve existing update consent and product-specific diagnostics behavior. See the [migration record](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/SHARED_DESKTOP_MIGRATION.md).
 
 ## 0.4.1
 
@@ -54,4 +54,4 @@ Selected-app mode, automatic day/night looks, display intensity overrides, atomi
 
 ## Source material
 
-This page follows Paper source at [`6ff7e17`](https://github.com/aindaco1/paper/tree/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95). [CHANGELOG.md](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/CHANGELOG.md) is its maintained source. Website service details, where present, are maintained here.
+This page follows Paper source at [`8713988`](https://github.com/aindaco1/paper/tree/871398865f5ee28615b51d21dfcc30e4b3604d48). [CHANGELOG.md](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/CHANGELOG.md) is its maintained source. Website service details, where present, are maintained here.

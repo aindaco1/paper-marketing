@@ -2,7 +2,7 @@
 title: Arquitectura
 description: Arquitectura de Paper, la app gratuita y de código abierto para macOS.
 lang: es
-source_commit: 6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95
+source_commit: 871398865f5ee28615b51d21dfcc30e4b3604d48
 generated: true
 parent: Desarrollo
 nav_order: 2
@@ -51,7 +51,7 @@ Paper conserva sin cambios las versiones fijadas de `TexturePreset.swift` y `Tex
 
 El catálogo viene directamente de Deckle. Paper coloca Soft Wove primero como opción inicial, sin mantener una lista aparte de identificadores. Los ajustes por pantalla cambian la intensidad efectiva de forma independiente al aspecto elegido.
 
-Los [avisos de terceros](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/THIRD_PARTY_NOTICES.md) y el [manifiesto de dependencias](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/docs/vendor-sources.json) recogen las revisiones, los hashes y las licencias. Importar una receta cambia su identidad local y conserva la semilla de renderizado; consulta [recetas](/es/docs/development/recipes/).
+Los [avisos de terceros](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/THIRD_PARTY_NOTICES.md) y el [manifiesto de dependencias](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/vendor-sources.json) recogen las revisiones, los hashes y las licencias. Importar una receta cambia su identidad local y conserva la semilla de renderizado; consulta [recetas](/es/docs/development/recipes/).
 
 <a id="system-behavior"></a>
 
@@ -71,7 +71,7 @@ Los ajustes usan el dominio de preferencias `xyz.dustwave.paper`. Las recetas y 
 
 Los perfiles de escritorio, las asignaciones a apps, los atajos y otros ajustes del equipo se guardan localmente. Las exportaciones incluyen papeles personalizados, favoritos y aspectos guardados, pero no todas las preferencias.
 
-El paquete de escritorio de Dust Wave Platform, fijado a una revisión concreta, integra Sparkle y el diagnóstico con revisión previa. Paper mantiene su propio esquema de informes y destino de envío. La app no incluye un motor de voz ni de IA. Consulta [privacidad](/es/privacy/), [integración de escritorio](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/docs/SHARED_DESKTOP_MIGRATION.md) y [publicación](/es/docs/operations/releasing/).
+El paquete de escritorio de Dust Wave Platform, fijado a una revisión concreta, integra Sparkle y el diagnóstico con revisión previa. Paper mantiene su propio esquema de informes y destino de envío. La app no incluye un motor de voz ni de IA. Consulta [privacidad](/es/privacy/), [integración de escritorio](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/SHARED_DESKTOP_MIGRATION.md) y [publicación](/es/docs/operations/releasing/).
 
 <a id="changing-the-code"></a>
 
@@ -83,4 +83,4 @@ Mantén las nuevas reglas comprobables en `PaperCore` y las API de Apple en adap
 
 ## Material de origen
 
-Esta página sigue el código de Paper en [`6ff7e17`](https://github.com/aindaco1/paper/tree/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95). Su contenido técnico se mantiene en [docs/architecture.md](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/docs/architecture.md). Los detalles sobre los servicios de este sitio web se mantienen aquí.
+Esta página sigue el código de Paper en [`8713988`](https://github.com/aindaco1/paper/tree/871398865f5ee28615b51d21dfcc30e4b3604d48). Su contenido técnico se mantiene en [docs/architecture.md](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/architecture.md). Los detalles sobre los servicios de este sitio web se mantienen aquí.

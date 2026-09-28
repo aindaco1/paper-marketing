@@ -18,7 +18,7 @@ Paper es gratis y de código abierto, y siempre lo será. Buena parte de lo que 
 
 Las 26 texturas incluidas vienen de ese catálogo. Las muestras de esta web se exportan con el mismo motor. Hay código compartido detrás, además de inspiración visual. Gracias a quienes lo pusieron a disposición de los demás.
 
-Copyright (c) 2026 Deckle contributors. [Licencia MIT completa](/assets/licenses/Deckle-MIT.txt). El [manifiesto de dependencias de Paper](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/docs/vendor-sources.json) registra los hashes y las rutas exactas del código.
+Copyright (c) 2026 Deckle contributors. [Licencia MIT completa](/assets/licenses/Deckle-MIT.txt). El [manifiesto de dependencias de Paper](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/vendor-sources.json) registra los hashes y las rutas exactas del código.
 
 Paper es una app independiente. Este reconocimiento no implica que los proyectos originales la respalden.
 
@@ -31,7 +31,7 @@ Paper es una app independiente. Este reconocimiento no implica que los proyectos
 - [Sparkle](https://sparkle-project.org/) se encarga de las actualizaciones firmadas. Su licencia se distribuye con Paper.
 - Las herramientas de pruebas de pantalla derivadas de OwlSwitch usan GPL-3.0 y se mantienen separadas. No se incluyen dentro de Paper.app.
 
-Los [avisos completos de terceros](https://github.com/aindaco1/paper/blob/6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95/THIRD_PARTY_NOTICES.md) conservan las licencias y la procedencia de las dependencias.
+Los [avisos completos de terceros](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/THIRD_PARTY_NOTICES.md) conservan las licencias y la procedencia de las dependencias.
 
 <a id="this-website"></a>
 
