@@ -24,4 +24,9 @@ Initial site commit: `8f5f83d`. App documentation source: `6ff7e17c1a53e93f94f69
 
 The site uses GitHub Pages Actions publishing and Cloudflare DNS. The custom domain was associated in Pages before DNS changes. The zone initially contained no DNS records. Four DNS-only apex A records now point to `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, and `185.199.111.153`; DNS-only `www` CNAME points to `aindaco1.github.io`. Public DNS and Cloudflare's saved table confirmed all five records. No unrelated DNS records were changed.
 
-Final HTTPS/redirect and deployed-route verification is recorded below after certificate issuance.
+- GitHub issued a valid certificate for both `paper-app.xyz` and `www.paper-app.xyz`. Pages reports `https_enforced: true`; HTTPS requests passed normal certificate validation.
+- `http://paper-app.xyz/`, `http://www.paper-app.xyz/docs/`, and `https://www.paper-app.xyz/es/docs/` returned 301 redirects to the HTTPS apex, preserving the path.
+- All 35 deployed HTML routes returned 200 with the expected locale, a nonempty title, and an HTTPS canonical URL. The directly requested `404.html` is a normal static document; an unknown route correctly returned 404 with Paper's custom page.
+- Live `robots.txt`, `sitemap.xml`, and the documentation search index returned 200. Chromium loaded the live homepage with the intended heading, exact 1.0.3 DMG link, no broken images, and no desktop horizontal overflow.
+- Added the GitHub Pages ownership TXT record, confirmed it through public DNS, and completed account-level verification. GitHub displayed “Successfully verified paper-app.xyz” and listed the domain as Verified. Retain this TXT record.
+- [GitHub Actions run 36371316820](https://github.com/aindaco1/paper-marketing/actions/runs/36371316820): build and deployment passed on `03c65ea`, the published revision used for the live checks above. This launch record is the only subsequent change.
