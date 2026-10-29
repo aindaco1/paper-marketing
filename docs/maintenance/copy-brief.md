@@ -1,6 +1,6 @@
 # Paper copy brief
 
-Confirmed by the user on 2026-09-27. This is the editorial source for the marketing site and public documentation. Examples below are draft voice samples, not published copy.
+Established on 2026-09-27; headline revised by the user on 2026-10-29. This is the editorial source for the marketing site and public documentation. The approved headline is recorded below; other examples are voice samples.
 
 ## The message
 
@@ -19,12 +19,12 @@ Use the user's direct, practical language as the anchor, with the requested jovi
 | Principle | Write like this | Avoid |
 | --- | --- | --- |
 | Plain and direct | “Pick a texture and adjust the intensity.” | “Curate your bespoke digital environment.” |
-| Cheerful, mildly irreverent | “A little paper for your very expensive rectangle.” | A punchline in every paragraph or exaggerated internet slang |
+| Warm, with room for a small joke | “A little more texture. A little less screen.” | Forced jokes about expensive hardware or exaggerated internet slang |
 | Specific | “Pause Paper before sharing your screen.” | Vague reassurance that everything is handled |
 | Generous about shared work | “Paper uses Deckle's texture renderer and paper catalog.” | Passing reused work off as a wholly original invention |
 | Economical | “Free and open source. Always.” | Repeating the pricing promise in every feature description |
 
-Humor should come from the small absurdity of putting paper on a computer and the maker's affection for the thing. Let it be a little silly. Keep the actual download label, requirements, settings names, and instructions unambiguous. Contractions and varied sentence lengths should follow natural speech, not a quota.
+Humor should come from affection for paper and the small absurdity of putting it on a computer. Use it where it feels natural; the headline does not need to deliver a punchline. Keep the actual download label, requirements, settings names, and instructions unambiguous. Contractions and varied sentence lengths should follow natural speech, not a quota.
 
 Marketing can be playful. Help and developer docs should sound like a knowledgeable person saving the reader time. Privacy, security, licensing, and error guidance stay precise; jokes must not obscure a limitation or instruction.
 
@@ -41,19 +41,28 @@ No detector score is part of acceptance. The work should sound natural, express 
 
 ## Draft voice samples
 
-Headline directions, in preference order:
+Approved headline, in the user's words (2026-10-29):
 
-1. **A little paper for your very expensive rectangle.** Preferred: a friendly joke with a concrete product explanation immediately underneath.
-2. **Give your Mac a paper habit.** Shorter and playful, but needs the subheading to make the effect clear.
-3. **Paper textures for your Mac. Free forever.** Most literal; useful when the visual carries the personality.
+> A little more texture. A little less screen.
 
-Suggested hero pairing:
+Spanish:
 
-> A little paper for your very expensive rectangle.
->
+> Un poco más de textura. Un poco menos de pantalla.
+
+Keep the concrete product explanation immediately underneath:
+
 > Paper adds a paper texture to your Mac. Pick one you like, adjust it, and get on with whatever you opened the computer to do.
 >
 > **Free and open source. Always.**
+
+The earlier expensive-rectangle joke was rejected. Do not restore it in the homepage, metadata or social artwork. Keep the approved line consistent across those surfaces.
+
+Other directions considered, retained as drafts rather than approved replacements:
+
+- For the love of paper.
+- Your Mac, with a paper finish.
+- Paper textures. Just because you like them.
+- A soft spot for paper.
 
 CTA: **Download Paper**. Secondary link: **Have a look at the code**. Keep the Apple Silicon/macOS requirement adjacent.
 

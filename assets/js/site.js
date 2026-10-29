@@ -5,6 +5,14 @@
     target.hash = window.location.hash;
     link.href = target.toString();
   });
+  // Just the Docs 0.12 assumes focusout always names the next element.
+  // Clicking nonfocusable content or leaving the window can supply null.
+  document.addEventListener('focusout', event => {
+    if (event.relatedTarget || !(event.target instanceof Element)) return;
+    if (!event.target.matches('#search-input') && !event.target.closest('#search-results')) return;
+    document.documentElement.classList.remove('search-active');
+    event.stopImmediatePropagation();
+  }, true);
   const sample = document.getElementById('texture-sample');
   if (!sample) return;
   const controls = document.querySelector('[data-preview-controls]');

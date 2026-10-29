@@ -2,7 +2,7 @@
 title: User guide
 description: User guide for Paper, the free and open-source macOS paper-texture app.
 lang: en
-source_commit: 871398865f5ee28615b51d21dfcc30e4b3604d48
+source_commit: d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58
 generated: true
 layout: page
 permalink: "/guide/"
@@ -188,7 +188,7 @@ These actions use the same controls as the app. Selecting a texture or look ends
 
 Save a recipe to your Mac, choose Import paper…, and select the file. You can select several at once. Paper keeps up to 50 custom papers, with a 1 MB limit per file. If one file can't be imported, Paper reports it; other valid files in that selection can still be added.
 
-To try an example, open [Soft Linen](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/examples/soft-linen.decklepaper.json) on GitHub and use **Download raw file**. Import the downloaded `.decklepaper.json` file into Paper. To remove a custom paper, select it and choose **Remove imported paper**. The built-in Deckle collection stays available.
+To try an example, open [Soft Linen](https://github.com/aindaco1/paper/blob/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58/docs/examples/soft-linen.decklepaper.json) on GitHub and use **Download raw file**. Import the downloaded `.decklepaper.json` file into Paper. To remove a custom paper, select it and choose **Remove imported paper**. The built-in Deckle collection stays available.
 
 ### Back up your collection
 
@@ -204,8 +204,8 @@ Paper doesn't capture what's on your screen, and it doesn't need Accessibility, 
 
 City searches use Apple's service, update checks use GitHub, and diagnostic reports are only sent after you review them and choose **Send**. The [privacy page](/privacy/) explains those connections.
 
-If something isn't behaving, choose **Help & diagnostics…** from Settings or the menu bar, or start with [Get help](/help/). Include what you were trying to do and what happened instead. For sensitive security reports, use the private channel in [Security](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/SECURITY.md).
+If something isn't behaving, choose **Help & diagnostics…** from Settings or the menu bar, or start with [Get help](/help/). Include what you were trying to do and what happened instead. For sensitive security reports, use the private channel in [Security](https://github.com/aindaco1/paper/blob/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58/SECURITY.md).
 
 ## Source material
 
-This page follows Paper source at [`8713988`](https://github.com/aindaco1/paper/tree/871398865f5ee28615b51d21dfcc30e4b3604d48). [docs/user-guide.md](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/user-guide.md) is its maintained source. Website service details, where present, are maintained here.
+This page follows Paper source at [`d20a6df`](https://github.com/aindaco1/paper/tree/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58). [docs/user-guide.md](https://github.com/aindaco1/paper/blob/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58/docs/user-guide.md) is its maintained source. Website service details, where present, are maintained here.

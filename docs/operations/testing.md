@@ -2,7 +2,7 @@
 title: Testing
 description: Testing for Paper, the free and open-source macOS paper-texture app.
 lang: en
-source_commit: 871398865f5ee28615b51d21dfcc30e4b3604d48
+source_commit: d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58
 generated: true
 parent: Operations
 nav_order: 1
@@ -12,9 +12,9 @@ nav_order: 1
 
 This file separates automated evidence, local app acceptance and broader release qualification.
 
-For the current release, see [Paper 1.0.3 validation](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/validation/1.0.3.md). The versioned results below are historical.
+For the current release, see [Paper 1.0.3 validation](https://github.com/aindaco1/paper/blob/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58/docs/validation/1.0.3.md). The versioned results below are historical.
 
-The Dock/Command-Tab fix has separate [regression evidence](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/validation/dock-command-tab.md),
+The Dock/Command-Tab fix has separate [regression evidence](https://github.com/aindaco1/paper/blob/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58/docs/validation/dock-command-tab.md),
 including real desktop interaction tests and the corrected overview policy.
 
 Automated coverage includes the retained Deckle renderer suite and Record login-service tests, plus Paper's schedule boundaries, DST behavior, snooze expiry, manual-off/display/app/power precedence, corrupt-data recovery, recipe identity/seed compatibility, partial import failures, and overlay window input/focus configuration.
@@ -34,4 +34,4 @@ The declared deployment floor is macOS 13 with an arm64 binary. Runtime testing 
 
 ## Source material
 
-This page follows Paper source at [`8713988`](https://github.com/aindaco1/paper/tree/871398865f5ee28615b51d21dfcc30e4b3604d48). [docs/testing.md](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/testing.md) is its maintained source. Website service details, where present, are maintained here.
+This page follows Paper source at [`d20a6df`](https://github.com/aindaco1/paper/tree/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58). [docs/testing.md](https://github.com/aindaco1/paper/blob/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58/docs/testing.md) is its maintained source. Website service details, where present, are maintained here.

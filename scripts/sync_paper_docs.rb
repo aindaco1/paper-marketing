@@ -36,6 +36,15 @@ module SyncPaperDocs
     "#{YAML.dump(data)}---\n\n#{body.strip}\n"
   end
 
+  def ci_toolchain(workflow)
+    job = YAML.safe_load(workflow).fetch('jobs').fetch('check')
+    setup = job.fetch('steps').find { |step| step.fetch('uses', '').start_with?('actions/setup-node@') }
+    node = setup&.dig('with', 'node-version')
+    runner = job.fetch('runs-on')
+    raise 'Expected a pinned Node patch release and Xcode runner in Paper CI' unless node.is_a?(String) && node.match?(/\A\d+\.\d+\.\d+\z/) && runner.is_a?(String) && runner.match?(/\Axcode-\d+\z/)
+    {node: node, runner: runner}
+  end
+
   def run
     source = Pathname(ENV.fetch('PAPER_SOURCE', ROOT.join('../paper').to_s)).expand_path
     ref = ENV.fetch('PAPER_SOURCE_REF', 'HEAD')
@@ -55,6 +64,10 @@ module SyncPaperDocs
     end
     output = {}
     source_hashes = {}
+    workflow_path = '.github/workflows/ci.yml'
+    workflow = read.call(workflow_path)
+    toolchain = ci_toolchain(workflow)
+    source_hashes[workflow_path] = Digest::SHA256.hexdigest(workflow)
     definitions.each do |entry|
       original = read.call(entry['source'])
       source_hashes[entry['source']] = Digest::SHA256.hexdigest(original)
@@ -66,6 +79,9 @@ module SyncPaperDocs
       body = rewrite_links(body, entry['source'], routes, base)
       # Bare version brackets in upstream Markdown are not links; keep release labels consistent.
       body = body.gsub(/^## \[(\d+\.\d+\.\d+)\](?=\s|$)/, '## \1') if entry['source'] == 'CHANGELOG.md'
+      if entry['path'] == 'docs/development/quickstart.md'
+        body += "\n## Match the CI toolchain\n\nThe [app's CI workflow](#{base}#{workflow_path}) pins Node **#{toolchain[:node]}** on the **#{toolchain[:runner]}** runner. Use that Node patch release when reproducing CI locally. Node is used by development checks; it is not bundled with Paper.\n\nThe workflow also runs the tracked-secret scan and Python native-display oracle tests. Consult the pinned workflow for the complete check sequence. A passing CI build does not establish real-display behavior, notarization or installed-update acceptance.\n"
+      end
       if entry['path'] == 'privacy.md'
         body += "\n## This website\n\nThe Paper website is a static site hosted by GitHub Pages, with DNS managed by Cloudflare. It has no analytics scripts, advertising, sign-in, or marketing cookies. Hosting providers receive ordinary connection metadata. Documentation search runs in your browser. The texture preview does not save settings or upload anything.\n\nOptional support links open Stripe's hosted checkout. Payments and any recurring support are handled by Stripe, not this site. GitHub hosts app downloads and source code. [GitHub privacy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement), [Cloudflare privacy](https://www.cloudflare.com/privacypolicy/), and [Stripe privacy](https://stripe.com/privacy).\n"
       end
@@ -111,7 +127,7 @@ module SyncPaperDocs
 
       ## Source and release
 
-      The downloadable app is **Paper #{version}**. These docs follow source commit [`#{commit[0,7]}`](https://github.com/aindaco1/paper/tree/#{commit}), including documentation changes after that release. A source change is not automatically a shipped app feature. See the [source map](/docs/reference/source-map/) and [changelog](/docs/reference/changelog/).
+      The downloadable app is **Paper #{version}**. These docs follow source commit [`#{commit[0,7]}`](https://github.com/aindaco1/paper/tree/#{commit}), including documentation and build-tooling changes after that release. A source change is not automatically a shipped app feature. See the [source map](/docs/reference/source-map/) and [changelog](/docs/reference/changelog/).
     MD
     rows = source_hashes.map { |path, hash| "| [#{path}](#{base}#{path}) | `#{hash[0,12]}` |" }.join("\n")
     output['docs/reference/source-map.md'] = page({'title'=>'Source map','lang'=>'en','description'=>'The exact Paper sources behind the public documentation.','parent'=>'Reference','nav_order'=>3,'generated'=>true}, <<~MD)

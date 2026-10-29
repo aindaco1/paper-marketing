@@ -22,6 +22,7 @@ The verification wrapper runs importer/translation regression tests, builds prod
 - `_data/i18n/{en,es}.json`: reviewed marketing copy and interface labels.
 - `_includes/`, `_layouts/`, `_sass/`, `assets/css/home.scss`: shared presentation.
 - Technical documentation lives in [Paper's repository](https://github.com/aindaco1/paper). `_data/doc_sources.yml` defines the exact import allowlist. Generated pages identify their source commit; `_data/docs_provenance.json` records source hashes.
+- The quickstart's exact Node patch and Xcode runner come from the app's committed `.github/workflows/ci.yml`, also recorded in provenance. The importer stops if the workflow no longer provides those pins; review the new toolchain before refreshing.
 - `scripts/spanish-docs-overrides.json`: reviewed Spanish bodies keyed by their exact English source. Code blocks, app control names, links and English heading aliases are preserved.
 - `_data/support.yml`: existing Dust Wave Stripe support contract, with Paper campaign attribution. Donations never unlock app features.
 
@@ -38,6 +39,8 @@ python3 scripts/build_spanish_docs.py
 The importer reads the recorded Git commit, never uncommitted working files. It validates the complete allowlist before writing. The Spanish command stops if an English body lacks a reviewed translation. Add or update its entry in the overrides file, then rerun. A source commit update changes provenance links, which need review too. `PAPER_TRANSLATION_FILES=guide.md,docs/development/recipes.md` can limit a refresh. An explicitly requested machine draft is available with `PAPER_ALLOW_UNREVIEWED_TRANSLATION=1`; that sends public text to Google's translation endpoints and must be edited before commit. Production builds do not use it.
 
 Do not hand-edit generated pages. Change the upstream source, the importer for website-owned notes/indexes/credits, or the reviewed translation. Keep maintenance documents out of the public build, navigation, sitemap and search.
+
+Homepage release summaries live in each locale's `home.release_summaries`, keyed by the verified release tag. A summary only appears when its tag matches `_data/product.yml`; review both languages when changing the download. After changing the approved headline, update homepage descriptions and `scripts/generate_social.swift`, then regenerate `assets/images/paper-social.png` with that script.
 
 ## Artwork and provenance
 

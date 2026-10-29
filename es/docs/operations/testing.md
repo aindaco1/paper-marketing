@@ -2,7 +2,7 @@
 title: Pruebas
 description: Pruebas de Paper, la app gratuita y de código abierto para macOS.
 lang: es
-source_commit: 871398865f5ee28615b51d21dfcc30e4b3604d48
+source_commit: d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58
 generated: true
 parent: Operaciones
 nav_order: 1
@@ -13,9 +13,9 @@ nav_order: 1
 
 Esta guía distingue las pruebas automáticas, las comprobaciones locales de la app y la validación más amplia de una versión.
 
-Para la versión actual, consulta la [validación de Paper 1.0.3](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/validation/1.0.3.md). Los resultados de versiones anteriores son históricos.
+Para la versión actual, consulta la [validación de Paper 1.0.3](https://github.com/aindaco1/paper/blob/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58/docs/validation/1.0.3.md). Los resultados de versiones anteriores son históricos.
 
-La corrección del Dock y Command-Tab tiene sus propias [pruebas de regresión](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/validation/dock-command-tab.md), con interacciones reales de escritorio y comprobaciones de la regla de detección de Mission Control.
+La corrección del Dock y Command-Tab tiene sus propias [pruebas de regresión](https://github.com/aindaco1/paper/blob/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58/docs/validation/dock-command-tab.md), con interacciones reales de escritorio y comprobaciones de la regla de detección de Mission Control.
 
 La cobertura automática incluye las pruebas conservadas del motor de Deckle y del servicio de inicio de sesión de Record. También comprueba límites de horarios, cambios de hora, vencimiento de pausas, prioridad de las reglas manuales, de pantallas, apps y energía, recuperación de datos dañados, identidad y semilla de recetas, errores parciales de importación, y configuración de foco y entrada de las ventanas.
 
@@ -35,4 +35,4 @@ El mínimo declarado es macOS 13 y el binario es arm64. Antes de afirmar compati
 
 ## Material de origen
 
-Esta página sigue el código de Paper en [`8713988`](https://github.com/aindaco1/paper/tree/871398865f5ee28615b51d21dfcc30e4b3604d48). Su contenido técnico se mantiene en [docs/testing.md](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/testing.md). Los detalles sobre los servicios de este sitio web se mantienen aquí.
+Esta página sigue el código de Paper en [`d20a6df`](https://github.com/aindaco1/paper/tree/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58). Su contenido técnico se mantiene en [docs/testing.md](https://github.com/aindaco1/paper/blob/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58/docs/testing.md). Los detalles sobre los servicios de este sitio web se mantienen aquí.

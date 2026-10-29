@@ -13,6 +13,15 @@ spec=importlib.util.spec_from_file_location('spanish',ROOT/'scripts/build_spanis
 spanish=importlib.util.module_from_spec(spec);spec.loader.exec_module(spanish)
 
 class ImportContract(unittest.TestCase):
+    def test_ci_toolchain_follows_the_pinned_workflow(self):
+        workflow='jobs:\n  check:\n    runs-on: xcode-27\n    steps:\n      - uses: actions/checkout@abc\n      - uses: actions/setup-node@def\n        with:\n          node-version: "24.22.1"\n'
+        result=json.loads(ruby('puts JSON.generate(SyncPaperDocs.ci_toolchain(ARGV[0]))', workflow))
+        self.assertEqual(result, {'node':'24.22.1','runner':'xcode-27'})
+        changed=workflow.replace('24.22.1','24.23.0').replace('xcode-27','xcode-28')
+        self.assertEqual(json.loads(ruby('puts JSON.generate(SyncPaperDocs.ci_toolchain(ARGV[0]))', changed)), {'node':'24.23.0','runner':'xcode-28'})
+        for unsupported in (workflow.replace('24.22.1','24'), workflow.replace('xcode-27','macos-latest')):
+            result=ruby('begin; SyncPaperDocs.ci_toolchain(ARGV[0]); puts "accepted"; rescue RuntimeError => e; puts e.message; end',unsupported)
+            self.assertIn('Expected a pinned Node patch release',result)
     def test_mixed_changelog_headings_ignore_unreleased(self):
         text='## Unreleased\nfuture\n## 1.0.3 - 2026-09-25\ncurrent\n## [1.0.1] - 2026-09-25\nold'
         self.assertEqual(json.loads(ruby('puts JSON.generate(SyncPaperDocs.released_version(ARGV[0]))',text)),['1.0.3','2026-09-25'])

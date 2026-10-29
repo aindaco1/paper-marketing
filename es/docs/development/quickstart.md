@@ -2,7 +2,7 @@
 title: Primeros pasos
 description: Primeros pasos de Paper, la app gratuita y de código abierto para macOS.
 lang: es
-source_commit: 871398865f5ee28615b51d21dfcc30e4b3604d48
+source_commit: d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58
 generated: true
 parent: Desarrollo
 nav_order: 1
@@ -31,8 +31,16 @@ Mantén las reglas puras de visibilidad y horarios en PaperCore, y las integraci
 
 Incluye pasos claros para reproducir el problema y las comprobaciones pertinentes. Usa informes y medios sintéticos como ejemplos. Nunca añadas al repositorio credenciales, registros reales de fallos, rutas privadas ni resultados locales. Las compilaciones van en `dist/` y las pruebas de entrega en `outputs/`, ambos ignorados por Git. La app usa MIT; las herramientas separadas de pruebas de pantalla usan GPL-3.0 y no deben incluirse en Paper.app.
 
+<a id="match-the-ci-toolchain"></a>
+
+## Usa las mismas herramientas que CI
+
+El [flujo de CI de la app](https://github.com/aindaco1/paper/blob/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58/.github/workflows/ci.yml) fija Node **24.22.1** en el entorno **xcode-27**. Usa esa versión exacta de Node para reproducir CI en tu Mac. Node se usa en las comprobaciones de desarrollo; no se incluye en Paper.
+
+El flujo también ejecuta la búsqueda de secretos en los archivos versionados y las pruebas de los oráculos de pantallas nativas en Python. Consulta el flujo fijado a este commit para ver la secuencia completa. Que CI pase no demuestra el comportamiento en pantallas reales, la notarización ni la instalación de actualizaciones.
+
 <a id="source-material"></a>
 
 ## Material de origen
 
-Esta página sigue el código de Paper en [`8713988`](https://github.com/aindaco1/paper/tree/871398865f5ee28615b51d21dfcc30e4b3604d48). Su contenido técnico se mantiene en [CONTRIBUTING.md](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/CONTRIBUTING.md). Los detalles sobre los servicios de este sitio web se mantienen aquí.
+Esta página sigue el código de Paper en [`d20a6df`](https://github.com/aindaco1/paper/tree/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58). Su contenido técnico se mantiene en [CONTRIBUTING.md](https://github.com/aindaco1/paper/blob/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58/CONTRIBUTING.md). Los detalles sobre los servicios de este sitio web se mantienen aquí.

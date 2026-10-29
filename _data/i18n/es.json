@@ -25,7 +25,7 @@
   },
   "home": {
     "eyebrow": "UNA PEQUEÑA APP GRATUITA PARA MAC",
-    "headline": "Un poco de papel para tu carísimo rectángulo.",
+    "headline": "Un poco más de textura. Un poco menos de pantalla.",
     "intro": "Paper añade una textura de papel a tu Mac. Elige la que te guste, ajústala y vuelve a eso para lo que habías encendido el ordenador.",
     "window": "Paper / una pequeña muestra",
     "sample_kicker": "NOTA PARA MÍ",
@@ -106,7 +106,10 @@
     "credits_details": "Ver todos los créditos",
     "support_title": "¿Te gustan las cosas pequeñas y útiles?",
     "support_body": "Si te apetece apoyar a Dust Wave, gracias. Las aportaciones son opcionales. Todo el mundo recibe la misma app gratuita.",
-    "bottom_title": "Venga. Vamos a ponerle un poco de papel."
+    "bottom_title": "Venga. Vamos a ponerle un poco de papel.",
+    "release_summaries": {
+      "v1.0.3": "La textura sigue visible al mostrar el Dock o usar Command-Tab. Se oculta durante Mission Control y vuelve al salir."
+    }
   },
   "support": {
     "options_title": "Un pequeño apoyo ayuda mucho.",

@@ -2,7 +2,7 @@
 title: Guía de uso
 description: Guía de uso de Paper, la app gratuita y de código abierto para macOS.
 lang: es
-source_commit: 871398865f5ee28615b51d21dfcc30e4b3604d48
+source_commit: d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58
 generated: true
 layout: page
 permalink: /es/guide/
@@ -235,7 +235,7 @@ Estas acciones usan los mismos controles que Paper. Seleccionar una textura o un
 
 Guarda una receta en el Mac, elige Import paper… y selecciona el archivo. Puedes seleccionar varios a la vez. Paper guarda hasta 50 papeles personalizados, con un límite de 1 MB por archivo. Si no puede importar alguno, te lo indica; los otros archivos válidos de esa selección pueden añadirse igualmente.
 
-Para probar un ejemplo, abre [Soft Linen](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/examples/soft-linen.decklepaper.json) en GitHub y usa **Download raw file**. Importa en Paper el archivo `.decklepaper.json` descargado. Para quitar un papel personalizado, selecciónalo y elige **Remove imported paper**. La colección de Deckle incluida en la app sigue disponible.
+Para probar un ejemplo, abre [Soft Linen](https://github.com/aindaco1/paper/blob/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58/docs/examples/soft-linen.decklepaper.json) en GitHub y usa **Download raw file**. Importa en Paper el archivo `.decklepaper.json` descargado. Para quitar un papel personalizado, selecciónalo y elige **Remove imported paper**. La colección de Deckle incluida en la app sigue disponible.
 
 <a id="back-up-your-collection"></a>
 
@@ -255,10 +255,10 @@ Paper no captura lo que hay en tu pantalla y no necesita permisos de Accesibilid
 
 Las búsquedas de ciudades usan el servicio de Apple; las comprobaciones de actualizaciones, GitHub. Los informes de diagnóstico solo se envían después de que los revises y pulses **Send**. La [página de privacidad](/es/privacy/) explica esas conexiones.
 
-Si algo no se comporta como esperabas, elige **Help & diagnostics…** en los ajustes o la barra de menús, o empieza por [Ayuda](/es/help/). Cuenta qué intentabas hacer y qué ocurrió. Para informar de un problema de seguridad sensible, usa el canal privado indicado en [Seguridad](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/SECURITY.md).
+Si algo no se comporta como esperabas, elige **Help & diagnostics…** en los ajustes o la barra de menús, o empieza por [Ayuda](/es/help/). Cuenta qué intentabas hacer y qué ocurrió. Para informar de un problema de seguridad sensible, usa el canal privado indicado en [Seguridad](https://github.com/aindaco1/paper/blob/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58/SECURITY.md).
 
 <a id="source-material"></a>
 
 ## Material de origen
 
-Esta página sigue el código de Paper en [`8713988`](https://github.com/aindaco1/paper/tree/871398865f5ee28615b51d21dfcc30e4b3604d48). Su contenido se mantiene en [docs/user-guide.md](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/user-guide.md). Los detalles sobre los servicios de este sitio web se mantienen aquí.
+Esta página sigue el código de Paper en [`d20a6df`](https://github.com/aindaco1/paper/tree/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58). Su contenido se mantiene en [docs/user-guide.md](https://github.com/aindaco1/paper/blob/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58/docs/user-guide.md). Los detalles sobre los servicios de este sitio web se mantienen aquí.

@@ -15,7 +15,7 @@ let frame = NSBezierPath(rect:NSRect(x:55,y:55,width:1090,height:520));frame.lin
 NSColor(srgbRed:0.86,green:0.89,blue:0.79,alpha:1).setFill()
 NSRect(x:56,y:521,width:1088,height:53).fill()
 text("Paper / a small, free Mac app",77,533,900,32,18)
-text("A little paper for your\nvery expensive rectangle.",90,222,1020,240,67,serif:true)
+text("A little more texture.\nA little less screen.",90,222,1020,240,67,serif:true)
 text("Free and open source. Always.",93,145,900,40,23)
 text("paper-app.xyz",93,86,420,28,18)
 text("Built with Deckle",815,86,290,28,18)

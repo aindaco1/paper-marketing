@@ -2,7 +2,7 @@
 title: Quickstart
 description: Quickstart for Paper, the free and open-source macOS paper-texture app.
 lang: en
-source_commit: 871398865f5ee28615b51d21dfcc30e4b3604d48
+source_commit: d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58
 generated: true
 parent: Development
 nav_order: 1
@@ -30,6 +30,12 @@ Keep pure visibility/schedule policy in PaperCore and system integrations in nar
 
 Submit clear reproduction steps and relevant checks. Use synthetic reports/media for examples. Never commit credentials, real crash logs, private paths or local outputs. Build artifacts belong in ignored `dist/`; delivery evidence belongs in ignored `outputs/`. The application is MIT; the separate display test tooling is GPL-3.0 and must not be shipped in Paper.app.
 
+## Match the CI toolchain
+
+The [app's CI workflow](https://github.com/aindaco1/paper/blob/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58/.github/workflows/ci.yml) pins Node **24.22.1** on the **xcode-27** runner. Use that Node patch release when reproducing CI locally. Node is used by development checks; it is not bundled with Paper.
+
+The workflow also runs the tracked-secret scan and Python native-display oracle tests. Consult the pinned workflow for the complete check sequence. A passing CI build does not establish real-display behavior, notarization or installed-update acceptance.
+
 ## Source material
 
-This page follows Paper source at [`8713988`](https://github.com/aindaco1/paper/tree/871398865f5ee28615b51d21dfcc30e4b3604d48). [CONTRIBUTING.md](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/CONTRIBUTING.md) is its maintained source. Website service details, where present, are maintained here.
+This page follows Paper source at [`d20a6df`](https://github.com/aindaco1/paper/tree/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58). [CONTRIBUTING.md](https://github.com/aindaco1/paper/blob/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58/CONTRIBUTING.md) is its maintained source. Website service details, where present, are maintained here.

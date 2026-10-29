@@ -2,7 +2,7 @@
 title: Versiones y actualizaciones
 description: Versiones y actualizaciones de Paper, la app gratuita y de código abierto para macOS.
 lang: es
-source_commit: 871398865f5ee28615b51d21dfcc30e4b3604d48
+source_commit: d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58
 generated: true
 parent: Operaciones
 nav_order: 2
@@ -42,4 +42,4 @@ Borra una rama solo después de comprobar que está fusionada, no tiene un PR ab
 
 ## Material de origen
 
-Esta página sigue el código de Paper en [`8713988`](https://github.com/aindaco1/paper/tree/871398865f5ee28615b51d21dfcc30e4b3604d48). Su contenido técnico se mantiene en [docs/releasing.md](https://github.com/aindaco1/paper/blob/871398865f5ee28615b51d21dfcc30e4b3604d48/docs/releasing.md). Los detalles sobre los servicios de este sitio web se mantienen aquí.
+Esta página sigue el código de Paper en [`d20a6df`](https://github.com/aindaco1/paper/tree/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58). Su contenido técnico se mantiene en [docs/releasing.md](https://github.com/aindaco1/paper/blob/d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58/docs/releasing.md). Los detalles sobre los servicios de este sitio web se mantienen aquí.

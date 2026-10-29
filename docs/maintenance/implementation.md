@@ -12,7 +12,7 @@ The preview tiles are actual renderer output from Deckle commit `cb4eb09dc117bb0
 
 ## Documentation ownership
 
-The missing user guide, architecture and recipe guides were added to Paper through [PR #7](https://github.com/aindaco1/paper/pull/7), validated by the app repository's checks, and merged. They are maintained upstream. This site imports source at `6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95`. The currently published app remains version 1.0.3. No app functionality or release artifact changed in this task.
+The missing user guide, architecture and recipe guides were added to Paper through [PR #7](https://github.com/aindaco1/paper/pull/7), validated by the app repository's checks, and merged. They are maintained upstream. The launch imported source at `6ff7e17c1a53e93f94f6987fae508a8f9e8e2b95`, with published app version 1.0.3. No app functionality or release artifact changed in the launch task. Current source and release identities are recorded separately in `_data/product.yml`; see [the October refresh](refresh-2026-10-29.md) for the latest documentation review.
 
 The importer reads an explicit committed source ref, checks every input before writing, rewrites links to mirrored routes or the recorded source, and records file hashes. A partial testing guide links to the full upstream history. Shared desktop services are covered in architecture and linked to their canonical integration guide, avoiding a redundant page. CI builds committed docs without fetching Paper or calling translation services.
 

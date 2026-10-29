@@ -1,6 +1,7 @@
 {
-  "source_commit": "871398865f5ee28615b51d21dfcc30e4b3604d48",
+  "source_commit": "d20a6dfa0c6f9195eb544b21826eacbd0b3bcf58",
   "files": {
+    ".github/workflows/ci.yml": "14f5065742d01ffc393085e1a00d14c69c48a32ae2b544c5ce4e6185e8dd87de",
     "CONTRIBUTING.md": "fb9b816d59a8b41a4a84113957f1094724852906c88446ac52ac24b9acc0e03c",
     "docs/architecture.md": "e17c775db3f8924302f229c3da884e656866ea090b71a2b887cd9f0da123c520",
     "docs/recipes.md": "7e1d44897a3a8acd38acfe84a0396d13be0153dc67ddb711550cec8f654c75b3",
